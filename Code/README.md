@@ -17,3 +17,4 @@
 Note: 
 * `XXX_test_unadj` is the unadjusted version of `XXX_test`, which only includes the intercept term without adjusting for other covariates. For `XXX_test`, the list of adjusting covariates is extracted from our example data. If you want to run on your own data, you need to modify the covariates name in the function. 
 
+* A bunch of messages will pop up when running some existing methods, e.g., MaAsLin2 will create a temporary folder inside the repo with names `tmp_{job.id}` where `job.id` is the user specified id that controls the sim setting (default: 1).
